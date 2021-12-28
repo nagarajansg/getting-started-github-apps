@@ -17,4 +17,4 @@ jobs:
           trello-card-action: "Attachment"
           trello-list-name-commit: "Roster of Work"
           trello-list-name-pr-open: "In Progress"
-          trello-list-name-pr-closed: "Completed"
+          trello-list-name-pr-closed: "Long Term Tasks"
