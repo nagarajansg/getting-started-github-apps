@@ -1,0 +1,19 @@
+- name: github-commit-to-trello-card
+  # You may pin to the exact commit or the version.
+  # uses: dalezak/github-commit-to-trello-card@e6a5ecb2a9c9ea5ac56234280324b2693bccbb8e
+  uses: dalezak/github-commit-to-trello-card@v3
+  with:
+    # Trello API key, visit https://trello.com/app-key for key
+    trello-api-key: 
+    # Trello auth token, visit https://trello.com/app-key then click generate a token
+    trello-auth-token: 
+    # Trello board ID, visit a board then append .json to url to find id
+    trello-board-id: 
+    # Trello card action, either "Comment" or "Attachment"
+    trello-card-action: 
+    # Trello list name for new commit, for example "Doing", "In Progress", etc
+    trello-list-name-commit: 
+    # Trello list name for open pull request, for example "Reviewing", "In Review", etc
+    trello-list-name-pr-open: # optional
+    # Trello list name for closed pull request, for example "Testing", "Done", etc
+    trello-list-name-pr-closed: # optional
